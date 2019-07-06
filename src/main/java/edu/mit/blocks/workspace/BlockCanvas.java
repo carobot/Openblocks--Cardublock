@@ -79,7 +79,7 @@ public class BlockCanvas implements PageChangeListener, ISupportMemento {
         this.scrollPane = new CHoverScrollPane(canvas,
                 ScrollPolicy.VERTICAL_BAR_ALWAYS,
                 ScrollPolicy.HORIZONTAL_BAR_ALWAYS,
-                18, CGraphite.blue, null);
+                18, CGraphite.red, null);
         scrollPane.setScrollingUnit(5);
         canvas.setLayout(null);
         canvas.setBackground(Color.WHITE);

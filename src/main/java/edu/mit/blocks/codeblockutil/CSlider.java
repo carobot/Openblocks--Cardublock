@@ -64,7 +64,7 @@ public class CSlider extends JPanel implements MouseListener, MouseMotionListene
      * 			the color of the thumb is BROWN
      */
     public CSlider() {
-        this(0, 100, 50, 0.2f, Color.blue, Color.black, Color.gray, false, 0, false, "");
+        this(0, 100, 50, 0.2f, Color.red, Color.black, Color.gray, false, 0, false, "");
     }
 
     /**
@@ -80,7 +80,7 @@ public class CSlider extends JPanel implements MouseListener, MouseMotionListene
      * 			the color of the thumb is BROWN
      */
     public CSlider(int left, int right, int value) {
-        this(left, right, value, 0.2f, Color.blue, Color.black, Color.gray, false, 0, false, "");
+        this(left, right, value, 0.2f, Color.red, Color.black, Color.gray, false, 0, false, "");
     }
 
     /**

@@ -218,7 +218,7 @@ public class WorkspaceController {
         		Element elm = (Element)nodes.item(i);
         		String name = elm.getAttribute("name");
 				
-        		// System.out.println("Translating BlockGenu:" + name);
+        		// System.out.println("Translating BlockGenus:" + name);
 				
         		String altName = langResourceBundle.getString("bg." + name);
         		if (altName != null) {
